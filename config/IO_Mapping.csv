@@ -1,0 +1,9 @@
+Tag_Name,Address,Data_Type,Description
+i_Start_PB,%I0.0,BOOL,Start Push Button (Normally Open)
+i_Prox_Sensor,%I0.1,BOOL,Proximity Sensor (Box Detection)
+i_EStop_Mon,%I0.2,BOOL,Safety Relay Monitor
+i_Stop_PB,%I0.3,BOOL,Stop Push Button (Normally Closed)
+i_Tall_Sensor,%I0.4,BOOL,High-Level Height Sensor
+q_Conv_Motor,%Q1.0,BOOL,Belt Drive Contactor
+q_Reject_Push,%Q1.1,BOOL,Diverter Solenoid Valve
+q_Warn_Light,%Q1.2,BOOL,Amber Warning Beacon
